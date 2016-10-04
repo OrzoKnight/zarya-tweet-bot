@@ -12,7 +12,7 @@ app.listen(process.env.PORT || 5000);
 var config = {
     me: 'orzo_tweets', // The authorized account with a list to retweet.
     myList: '', // The list we want to retweet.
-    regexFilter: '#zarya', // Accept only tweets matching this regex pattern.
+    regexFilter: '#zarya|#Zarya', // Accept only tweets matching this regex pattern.
     regexReject: '(RT|@)', // AND reject any tweets matching this regex pattern.
 
     keys: {
